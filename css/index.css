@@ -5,26 +5,6 @@
   margin: 0 auto;
 }
 
-.container .banner {
-  height: 240px;
-  position: relative;
-  width: 100%;
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-}
-
-.container .banner img {
-  width: 120px;
-  height: 120px;
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  border-radius: 50%;
-}
-
 .container ul {
   padding: 0;
   margin: 0;
@@ -32,6 +12,7 @@
 
 .container ul li {
   list-style: none;
+  position: relative;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -72,7 +53,7 @@
   color: white;
 }
 
-.container ul li .technology div {
+.container ul li .technology .tech {
   margin-bottom: 12px;
   font-size: 1.2em;
   color: #fff;
@@ -82,6 +63,20 @@
 
 .container ul li .technology li {
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.container ul li .detail {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  font-size: 1.25em;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .container ul li:nth-child(5) .item {
@@ -101,4 +96,12 @@
   /*超出部分隐藏*/
   text-overflow: ellipsis;
   /*文字用省略号代替超出部分*/
+}
+
+.container ul .project {
+  padding-bottom: 70px;
+}
+
+.container .footer {
+  text-align: center;
 }
