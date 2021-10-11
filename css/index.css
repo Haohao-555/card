@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .container {
   width: 100%;
   max-width: 760px;
@@ -66,7 +67,7 @@
 .container ul li .title {
   font-size: 1.25em;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-bottom: 12px;
   color: white;
 }
@@ -83,6 +84,21 @@
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
+.container ul li:nth-child(5) .item {
+  display: flex;
+}
+
 .container ul li:nth-child(5) .item span {
   width: 60px;
+}
+
+.container ul li:nth-child(5) .item a {
+  display: inline-block;
+  width: 90%;
+  white-space: nowrap;
+  /*先强制一行内显示文本*/
+  overflow: hidden;
+  /*超出部分隐藏*/
+  text-overflow: ellipsis;
+  /*文字用省略号代替超出部分*/
 }
