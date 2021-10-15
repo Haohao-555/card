@@ -18,7 +18,7 @@ $(function() {
             `
             <div class='p2'>
                <a href='https://github.com/Haohao-555/mimi'>点我到仓库下载去</a> 
-            </p1>
+            </div>
             `
         )
         $(this).remove();
@@ -29,7 +29,7 @@ $(function() {
             `
             <div class='p3'>
                <a href='http://39.104.61.32/weibo/'>去看看（建议PC端）</a> 
-            </p1>
+            </div>
             `
         )
         $(this).remove();
