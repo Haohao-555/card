@@ -62,11 +62,15 @@
         font-size: 1.25em;
         text-align: center;
         line-height: 60px;
-        color: #fff;
         bottom: 0;
         left: 0;
         border-bottom-left-radius: 12px;
         border-bottom-right-radius: 12px;
+        cursor: pointer;
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
     }
       &:nth-child(5) {
         .item {
@@ -86,6 +90,35 @@
     }
     .project {
         padding-bottom: 70px; 
+        .p1 {
+          text-align: center;
+          img {
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin: 10px auto 0px auto;
+          }
+        }
+        .p2 {
+          margin: 20px auto 0px auto;
+          a {
+            display: block;
+            font-size: 16px;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+          }
+        }
+        .p3 {
+          margin: 20px auto 0px auto;
+          a {
+            display: block;
+            font-size: 16px;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+          }
+        }
     }
   }
   .footer {
